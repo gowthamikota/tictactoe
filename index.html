@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TIC-TAC-TOE</h1>
+        <h2 id="result">Let's begin</h2>
+    </header>
+    <div class="container">
+        <div class="rows">
+            <button onclick="addfun(0,0,0)" id="0"></button>
+            <button onclick="addfun(0,1,1)" id="1"></button>
+            <button onclick="addfun(0,2,2)" id="2"></button>
+            <button onclick="addfun(1,0,3)" id="3"></button>
+            <button onclick="addfun(1,1,4)" id="4"></button>
+            <button onclick="addfun(1,2,5)" id="5"></button>
+            <button onclick="addfun(2,0,6)" id="6"></button>
+            <button onclick="addfun(2,1,7)" id="7"></button>
+            <button onclick="addfun(2,2,8)" id="8"></button>
+        </div>
+    </div>
+    <footer>
+        <button onclick="resetboard()">reset</button>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
